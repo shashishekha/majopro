@@ -126,6 +126,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+LOGIN_REDIRECT_URL='/afterlogin'
+
 STATICFILES_DIRS =[
     STATIC_DIR,
 ]
